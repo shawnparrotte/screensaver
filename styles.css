@@ -1,0 +1,42 @@
+.ball {
+  height: 100px;
+  width: 100px;
+  border-radius: 200px;
+  position: absolute;
+}
+
+#redBall {
+  z-index: 1000;
+  background-color: red;
+  background: radial-gradient(circle, #FF2C0C, #DF2C0C);
+}
+
+#blueBall {
+  z-index: 1001;
+  background-color: blue;
+  background: radial-gradient(circle, #2800FF, #2000CF);
+}
+
+#greenBall {
+  z-index: 1002;
+  background-color: green;
+  background: radial-gradient(circle, #0CCB09, #0CB309);
+}
+
+#yellowBall {
+  z-index: 1003;
+  background-color: yellow;
+  background: radial-gradient(circle, #F2FC03, #D8E003);
+}
+
+#orangeBall {
+  z-index: 1004;
+  background-color: orange;
+  background: radial-gradient(circle, #FF7B00, #E56F00);
+}
+
+#purpleBall {
+  z-index: 1005;
+  background-color: purple;
+  background: radial-gradient(circle, #A00BDB, #8E0AC2);
+}
